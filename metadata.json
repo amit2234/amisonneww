@@ -1,0 +1,6 @@
+{
+  "name": "Moto Landing Page",
+  "description": "Responsive multipurpose landing page optimized for mobile, tablet, and laptop.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
