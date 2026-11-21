@@ -1,0 +1,703 @@
+/*--------------------------------------------------------------------- File Name: responsive.css ---------------------------------------------------------------------*/
+
+/* Laptop: 992px to 1199px */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .header-inner {
+        padding: 10px 24px;
+        min-height: 64px;
+    }
+    .header-left {
+        gap: 28px;
+    }
+    .header-nav {
+        gap: 20px;
+    }
+    .header-nav a {
+        font-size: 14px;
+    }
+    .logo a img {
+        height: 44px;
+        max-height: 44px;
+    }
+    .logo .brand-name {
+        font-size: 24px;
+    }
+    .header-download-btn {
+        font-size: 19px;
+        padding: 9px 20px;
+    }
+    .text-bg {
+        padding: 54px 24px;
+        max-width: 480px;
+    }
+    .text-bg .hero-brand {
+        font-size: 30px;
+        padding-bottom: 14px;
+    }
+    .text-bg h1 {
+        font-size: 34px;
+        line-height: 1.32;
+    }
+    .text-img {
+        padding: 36px 24px;
+    }
+    .text-img figure img {
+        max-height: 460px;
+    }
+    .feature-sticky-stage {
+        position: static;
+        min-height: auto;
+        padding: 38px 0 46px;
+    }
+    .feature-point-item {
+        margin-bottom: 14px;
+    }
+    .feature-point-item h3 {
+        font-size: 18px;
+    }
+    .feature-point-item p {
+        font-size: 13.5px;
+    }
+    .feature-screens-fan {
+        width: 390px;
+        height: 420px;
+    }
+    .amezing-header h2 {
+        font-size: 38px;
+    }
+    .amezing-feature-col h3 {
+        font-size: 22px;
+    }
+    .amezing-screens-grid {
+        gap: 18px;
+    }
+    .customer {
+        padding: 58px 0 66px;
+    }
+    .customer-highlights-header h2 {
+        font-size: 32px;
+    }
+    .highlight-point-card h3 {
+        font-size: 23px;
+    }
+    .highlight-point-card p {
+        font-size: 15px;
+    }
+    .beta-notice-banner {
+        max-width: 740px;
+        padding: 22px 76px 22px 84px;
+        gap: 32px;
+    }
+    .beta-notice-circle {
+        width: 92px;
+        height: 92px;
+    }
+    .beta-notice-text p {
+        font-size: 16px;
+    }
+    ul.social_infomision li a {
+        font-size: 22px;
+        padding: 13px 24px;
+    }
+    ul.social_infomision li img,
+    .contact-whatsapp-icon {
+        width: 44px;
+        height: 44px;
+    }
+    ul.social_infomision li img {
+        height: auto;
+    }
+    .cont h3 {
+        font-size: 32px;
+        line-height: 46px;
+    }
+}
+
+/* Tablet: 768px to 991px (side-by-side just like Laptop) */
+@media (min-width: 768px) and (max-width: 991px) {
+    .header-inner {
+        padding: 9px 18px;
+        min-height: 60px;
+    }
+    .header-left {
+        gap: 18px;
+    }
+    .header-nav {
+        gap: 14px;
+    }
+    .header-nav a {
+        font-size: 12.5px;
+        letter-spacing: 0.4px;
+    }
+    .logo a {
+        gap: 8px;
+    }
+    .logo a img {
+        height: 40px;
+        max-height: 40px;
+    }
+    .logo .brand-name {
+        font-size: 20px;
+    }
+    .header-download-btn {
+        font-size: 16px;
+        padding: 8px 16px;
+    }
+    .text-bg {
+        padding: 44px 18px;
+        max-width: 380px;
+    }
+    .text-bg .hero-brand {
+        font-size: 25px;
+        padding-bottom: 12px;
+    }
+    .text-bg h1 {
+        font-size: 26px;
+        line-height: 1.35;
+    }
+    .text-img {
+        padding: 32px 18px;
+    }
+    .text-img figure img {
+        max-height: 400px;
+    }
+    .feature-sticky-stage {
+        position: static;
+        min-height: auto;
+        padding: 34px 0 42px;
+    }
+    .titlepage {
+        padding-bottom: 35px;
+    }
+    .titlepage h2 {
+        font-size: 36px;
+        line-height: 46px;
+    }
+    .feature-point-item {
+        margin-bottom: 12px;
+    }
+    .feature-point-item h3 {
+        font-size: 16px;
+    }
+    .feature-point-item p {
+        font-size: 12.5px;
+        line-height: 1.42;
+        padding: 0 4px;
+    }
+    .feature-screens-fan {
+        width: 320px;
+        height: 360px;
+    }
+    .amezing {
+        margin-top: 0;
+        padding: 58px 0 64px;
+    }
+    .amezing-header {
+        margin-bottom: 36px;
+    }
+    .amezing-header h2 {
+        font-size: 32px;
+    }
+    .amezing-subtitle {
+        font-size: 15px;
+    }
+    .amezing-features-row {
+        margin-bottom: 36px;
+    }
+    .amezing-feature-col {
+        padding: 0 8px;
+    }
+    .amezing-feature-col h3 {
+        font-size: 19px;
+    }
+    .amezing-feature-col p {
+        font-size: 13.5px;
+    }
+    .amezing-screens-grid {
+        gap: 12px;
+    }
+    .customer {
+        margin-top: 0;
+        padding: 52px 0 60px;
+    }
+    .customer-highlights-header {
+        margin-bottom: 32px;
+    }
+    .customer-highlights-header h2 {
+        font-size: 27px;
+    }
+    .customer-highlights-top-row {
+        margin-bottom: 28px;
+    }
+    .customer-highlights-center-row {
+        margin-bottom: 32px;
+    }
+    .highlight-point-card {
+        padding: 0 6px;
+    }
+    .highlight-point-card h3 {
+        font-size: 19px;
+        margin-bottom: 10px;
+    }
+    .highlight-point-card p {
+        font-size: 13.5px;
+        line-height: 1.45;
+    }
+    .beta-notice-banner {
+        clip-path: polygon(6.5% 0%, 100% 0%, 93.5% 100%, 0% 100%);
+        padding: 20px 62px 20px 68px;
+        gap: 24px;
+    }
+    .beta-notice-circle {
+        width: 78px;
+        height: 78px;
+    }
+    .beta-notice-text p {
+        font-size: 14.5px;
+        line-height: 1.45;
+    }
+    .request {
+        padding: 70px 0;
+    }
+    ul.social_infomision li a {
+        font-size: 18px;
+        gap: 10px;
+        padding: 12px 18px;
+    }
+    ul.social_infomision li img,
+    .contact-whatsapp-icon {
+        width: 38px;
+        height: 38px;
+    }
+    ul.social_infomision li img {
+        height: auto;
+    }
+    .cont h3 {
+        font-size: 28px;
+        line-height: 40px;
+    }
+}
+
+/* Mobile & Small Tablet: up to 767px */
+@media (max-width: 767px) {
+    .header-inner {
+        padding: 8px 14px;
+        min-height: 56px;
+    }
+    .header-nav {
+        display: none;
+    }
+    .logo a {
+        gap: 8px;
+    }
+    .logo a img {
+        height: 38px;
+        max-height: 38px;
+        width: auto;
+    }
+    .logo .brand-name {
+        font-size: 19px;
+    }
+    .header-download-btn {
+        font-size: 16px;
+        padding: 7px 14px;
+    }
+    .text-bg {
+        padding: 40px 20px 20px;
+        max-width: 100%;
+    }
+    .text-bg .hero-brand {
+        font-size: 24px;
+        padding-bottom: 10px;
+    }
+    .text-bg h1 {
+        font-size: 25px;
+        line-height: 1.38;
+    }
+    .text-img {
+        padding: 20px 20px 44px;
+    }
+    .text-img figure img {
+        max-height: 430px;
+        width: auto;
+        max-width: 100%;
+    }
+    .feature-scroll-track {
+        min-height: auto;
+    }
+    .feature-sticky-stage {
+        position: static;
+        min-height: auto;
+        padding: 46px 0 50px;
+    }
+    .feature .feature-title {
+        padding-bottom: 20px;
+    }
+    .desktop-feature-pages,
+    .feature-page-controls-bar {
+        display: none;
+    }
+    .mobile-feature-carousel {
+        display: block;
+        margin-bottom: 24px;
+    }
+    .mobile-feature-viewport {
+        overflow: hidden;
+        width: 100%;
+    }
+    .mobile-feature-track {
+        display: flex;
+        width: 100%;
+        transition: transform 0.42s cubic-bezier(0.22, 1, 0.36, 1);
+        will-change: transform;
+    }
+    .mobile-feature-slide {
+        flex: 0 0 100%;
+        width: 100%;
+        padding: 6px 4px;
+    }
+    .mobile-feature-slide .feature-point-item {
+        background: rgba(255, 255, 255, 0.78);
+        border: 1px solid rgba(255, 255, 255, 0.85);
+        border-radius: 14px;
+        padding: 20px 16px;
+        margin-bottom: 0;
+        box-shadow: 0 10px 26px rgba(12, 15, 56, 0.08), 0 0 18px rgba(218, 51, 226, 0.08);
+    }
+    .mobile-feature-slide .feature-point-item h3 {
+        text-align: center;
+        font-size: 18px;
+        margin-bottom: 8px;
+    }
+    .mobile-feature-slide .feature-point-item p {
+        text-align: center;
+        font-size: 14px;
+        line-height: 1.55;
+        padding: 0;
+    }
+    .mobile-feature-dots {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 6px;
+        margin-top: 14px;
+    }
+    .mobile-feature-dot {
+        width: 7px;
+        height: 7px;
+        border-radius: 50%;
+        background: rgba(12, 15, 56, 0.25);
+        border: none;
+        padding: 0;
+        transition: all 0.25s ease;
+    }
+    .mobile-feature-dot.is-active {
+        width: 20px;
+        border-radius: 999px;
+        background: #da33e2;
+    }
+    .feature-screens-fan {
+        width: 320px;
+        height: 360px;
+    }
+    .titlepage {
+        padding-bottom: 36px;
+    }
+    .titlepage h2 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .customer .titlepage span,
+    .request .titlepage span {
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .amezing {
+        margin-top: 0;
+        padding: 52px 0 58px;
+    }
+    .amezing-header {
+        margin-bottom: 30px;
+    }
+    .amezing-header h2 {
+        font-size: 27px;
+        line-height: 1.28;
+        margin-bottom: 12px;
+    }
+    .amezing-subtitle {
+        font-size: 14.5px;
+        line-height: 1.55;
+    }
+    .amezing-features-row {
+        margin-bottom: 24px;
+        margin-left: -6px;
+        margin-right: -6px;
+    }
+    .amezing-features-row > [class*="col-"] {
+        padding-left: 6px;
+        padding-right: 6px;
+    }
+    .amezing-feature-col {
+        padding: 0 2px;
+    }
+    .amezing-feature-col h3 {
+        font-size: 15px;
+        line-height: 1.3;
+        margin-bottom: 6px;
+    }
+    .amezing-feature-col p {
+        font-size: 12px;
+        line-height: 1.45;
+    }
+    .amezing-screens-viewport {
+        overflow: hidden;
+        width: 100%;
+        touch-action: pan-y;
+        cursor: grab;
+        user-select: none;
+    }
+    .amezing-screens-viewport:active {
+        cursor: grabbing;
+    }
+    .amezing-screens-grid {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        gap: 0;
+        width: 100%;
+        transition: transform 0.45s cubic-bezier(0.22, 1, 0.36, 1);
+        will-change: transform;
+    }
+    .amezing-screen-card,
+    .amezing-screen-clone {
+        display: flex;
+        flex: 0 0 100%;
+        width: 100%;
+        max-width: 100%;
+        justify-content: center;
+        background: transparent;
+        border: none;
+        box-shadow: none;
+        border-radius: 0;
+        padding: 4px 10px 10px;
+    }
+    .amezing-screen-card img {
+        width: 100%;
+        max-width: 230px;
+        border-radius: 14px;
+        box-shadow: 0 18px 40px rgba(0, 0, 0, 0.52);
+        pointer-events: none;
+    }
+    .amezing-screen-dots {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 7px;
+        margin-top: 14px;
+    }
+    .amezing-screen-dot {
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        background: rgba(255, 255, 255, 0.3);
+        border: none;
+        padding: 0;
+        transition: all 0.25s ease;
+    }
+    .amezing-screen-dot.is-active {
+        width: 22px;
+        border-radius: 999px;
+        background: #da33e2;
+    }
+    .customer {
+        margin-top: 0;
+        padding: 44px 0 50px;
+    }
+    .customer-highlights-header {
+        margin-bottom: 24px;
+    }
+    .customer-highlights-header h2 {
+        font-size: 23px;
+        line-height: 1.28;
+    }
+    .customer-highlights-top-row {
+        margin-bottom: 22px;
+        margin-left: -6px;
+        margin-right: -6px;
+    }
+    .customer-highlights-top-row > [class*="col-"] {
+        padding-left: 6px;
+        padding-right: 6px;
+    }
+    .customer-highlights-center-row {
+        margin-bottom: 26px;
+    }
+    .highlight-point-card {
+        padding: 0 2px;
+    }
+    .highlight-point-card h3 {
+        font-size: 14.5px;
+        line-height: 1.28;
+        margin-bottom: 8px;
+    }
+    .highlight-point-card p {
+        font-size: 11.5px;
+        line-height: 1.45;
+    }
+    .beta-notice-banner {
+        clip-path: polygon(5% 0%, 100% 0%, 95% 100%, 0% 100%);
+        padding: 16px 32px 16px 34px;
+        gap: 16px;
+    }
+    .beta-notice-circle {
+        width: 56px;
+        height: 56px;
+    }
+    .beta-notice-text p {
+        font-size: 12px;
+        line-height: 1.42;
+    }
+    .request {
+        padding: 60px 0;
+    }
+    ul.social_infomision {
+        padding-bottom: 12px;
+        margin-bottom: 10px;
+    }
+    ul.social_infomision li a {
+        font-size: 20px;
+        gap: 12px;
+        padding: 13px 22px;
+    }
+    ul.social_infomision li img,
+    .contact-whatsapp-icon {
+        width: 40px;
+        height: 40px;
+    }
+    ul.social_infomision li img {
+        height: auto;
+    }
+    .back-to-top-btn {
+        right: 16px;
+        bottom: 18px;
+        width: 42px;
+        height: 42px;
+    }
+    .cont h3 {
+        font-size: 24px;
+        line-height: 34px;
+    }
+    .cont span {
+        font-size: 15px;
+        line-height: 24px;
+    }
+    .copyright p {
+        font-size: 14.5px;
+        line-height: 22px;
+    }
+}
+
+/* Small Mobile: up to 575px */
+@media (max-width: 575px) {
+    .header-inner {
+        padding: 7px 12px;
+        min-height: 52px;
+    }
+    .logo a img {
+        height: 34px;
+        max-height: 34px;
+    }
+    .logo .brand-name {
+        font-size: 17px;
+    }
+    .header-download-btn {
+        font-size: 15px;
+        padding: 6px 12px;
+    }
+    .text-bg {
+        padding: 36px 18px 18px;
+    }
+    .text-bg .hero-brand {
+        font-size: 22px;
+        padding-bottom: 8px;
+    }
+    .text-bg h1 {
+        font-size: 22px;
+        line-height: 1.38;
+    }
+    .text-img {
+        padding: 18px 16px 38px;
+    }
+    .text-img figure img {
+        max-height: 390px;
+    }
+    .feature-screens-fan {
+        width: 290px;
+        height: 330px;
+    }
+    .titlepage h2 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+    .amezing-header h2 {
+        font-size: 24px;
+    }
+    .amezing-feature-col h3 {
+        font-size: 13px;
+        line-height: 1.28;
+        margin-bottom: 5px;
+    }
+    .amezing-feature-col p {
+        font-size: 11px;
+        line-height: 1.42;
+    }
+    .amezing-screen-card img {
+        max-width: 210px;
+    }
+    .customer-highlights-header h2 {
+        font-size: 19px;
+    }
+    .highlight-point-card h3 {
+        font-size: 13px;
+        margin-bottom: 6px;
+    }
+    .highlight-point-card p {
+        font-size: 11px;
+        line-height: 1.4;
+    }
+    .beta-notice-banner {
+        clip-path: polygon(4% 0%, 100% 0%, 96% 100%, 0% 100%);
+        padding: 14px 24px 14px 26px;
+        gap: 12px;
+    }
+    .beta-notice-circle {
+        width: 46px;
+        height: 46px;
+    }
+    .beta-notice-text p {
+        font-size: 11px;
+        line-height: 1.38;
+    }
+    ul.social_infomision li a {
+        font-size: 17px;
+        gap: 10px;
+        padding: 11px 18px;
+    }
+    ul.social_infomision li img,
+    .contact-whatsapp-icon {
+        width: 34px;
+        height: 34px;
+    }
+    ul.social_infomision li img {
+        height: auto;
+    }
+    .cont h3 {
+        font-size: 21px;
+        line-height: 30px;
+    }
+    ul.social_icon li a {
+        width: 44px;
+        height: 44px;
+        font-size: 20px;
+    }
+}
